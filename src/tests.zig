@@ -1,4 +1,4 @@
-const region = @import("region/region.zig");
+const region = @import("region.zig");
 
 comptime {
     @import("std").testing.refAllDecls(@This());

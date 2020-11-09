@@ -1,5 +1,5 @@
 const std = @import("std");
-const region = @import("region/region.zig");
+const region = @import("region.zig");
 
 pub fn _main() !void {
     var allocator = std.heap.page_allocator;
